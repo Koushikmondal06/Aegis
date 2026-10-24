@@ -1,0 +1,14 @@
+{
+  "name": "aegis-wallet",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "packages/*",
+    "services/indexer"
+  ],
+  "scripts": {
+    "build:web": "npm --workspace apps/web run build",
+    "dev:web": "npm --workspace apps/web run dev",
+    "typecheck": "npm --workspace apps/web run typecheck && npm --workspace packages/aa-client run typecheck && npm --workspace services/indexer run typecheck"
+  }
+}
