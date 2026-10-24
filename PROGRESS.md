@@ -1,7 +1,7 @@
 # Aegis Wallet Progress
 
-**Checkpoint date:** October 24, 2026  
-**Branch:** `main`  
+**Checkpoint date:** October 24, 2026
+**Branch:** `main`
 **Project status:** Local implementation complete for the current foundation; Sepolia release work remains.
 
 ## Summary
